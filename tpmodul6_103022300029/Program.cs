@@ -6,5 +6,9 @@ class Program
     {
         SayaTubeVideo video = new SayaTubeVideo("Tutorial Design By Contract – Damai Putra Yudha");
         video.PrintVideoDetails();
+
+        video.IncreasePlayCount(5000);
+
+        video.PrintVideoDetails();
     }
 }
